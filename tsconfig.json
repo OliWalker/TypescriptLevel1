@@ -1,0 +1,9 @@
+// https://www.typescriptlang.org/docs/handbook/compiler-options.html
+{
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "removeComments": true,
+    "outDir": "main"
+  }
+}
